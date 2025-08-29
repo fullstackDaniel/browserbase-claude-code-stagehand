@@ -1,10 +1,12 @@
 # Test-Driven Development with Browserbase, Stagehand and Claude Code
 
+## 🎓 AI Insiders Club Edition
+
 **🤖 Sponsored by Browserbase**: Sign up today ► https://browserbase.plug.dev/ekNRhob
 
 **🎥 Watch the Episode**: [How to Reduce 90% of Errors with Claude Code](https://www.youtube.com/watch?v=5jPQNDu_iJA)
 
-Learn how to reduce 90% of errors using Test-Driven Development with AI-powered testing. This repository contains free resources from Episode 9 where we build a Color Mixer app using TDD methodology with Stagehand's natural language testing framework.
+Welcome Insiders! This enhanced repository contains exclusive learning materials and the complete test suite from Episode 9. Learn how to reduce 90% of errors using Test-Driven Development with AI-powered testing and Stagehand's natural language testing framework.
 
 ## 📦 Repository Structure
 
@@ -12,6 +14,8 @@ Learn how to reduce 90% of errors using Test-Driven Development with AI-powered 
 browserbase-claude-code-stagehand/
 ├── README.md                          # This file
 ├── CLAUDE.md                          # Claude Code guidance file
+├── LESSON.md                          # 🎓 INSIDERS EXCLUSIVE: Complete learning guide
+├── PRD.md                             # 🎓 INSIDERS EXCLUSIVE: Product requirements document
 ├── .claude/                           # Claude Code configuration
 │   ├── agents/                        # AI agent definitions
 │   │   └── stagehand-expert.md       # Stagehand testing specialist agent
@@ -21,7 +25,7 @@ browserbase-claude-code-stagehand/
 │   └── output-styles/                 # Output formatting rules
 │       └── pragmatic-test-driven-developer.md  # TDD enforcement style
 └── my-app/
-    └── tests/                         # Test suite implementations
+    └── tests/                         # Complete test suite implementations
         ├── README.md                  # Comprehensive test documentation
         ├── playwright/                # Traditional selector-based tests
         │   ├── baseline.spec.ts      # Basic structure & element presence
@@ -66,57 +70,66 @@ npx playwright test tests/playwright/
 npx playwright test tests/stagehand/
 ```
 
-## 📚 What's Included (FREE)
+## 📚 What's Included
 
-### **Stagehand Expert Agent** (`agents/stagehand-expert.md`)
+### 🎓 **INSIDERS EXCLUSIVE Content**
+
+#### **Complete Learning Guide** (`LESSON.md`)
+
+- Detailed timestamps from the episode
+- Code-along exercises with solutions
+- Advanced Stagehand techniques breakdown
+- Multi-agent workflow patterns
+- Practice exercises and community challenges
+
+#### **Product Requirements Document** (`PRD.md`)
+
+- Complete specifications for the Color Mixer app
+- User stories and acceptance criteria
+- Technical requirements and constraints
+- Perfect for practicing TDD implementation
+
+#### **Full Test Suite** (`my-app/tests/`)
+
+- Complete working Playwright tests (3 files)
+- Complete Stagehand AI tests (3 files)
+- Side-by-side comparisons showing 70% code reduction
+- Real patterns you can adapt to your projects
+
+### **Core Resources (Also in Free Version)**
+
+#### **Stagehand Expert Agent** (`.claude/agents/stagehand-expert.md`)
 
 - Complete agent definition for AI-powered testing
 - Pre-configured with Stagehand best practices
 - Natural language test patterns and examples
 - Works with Claude Code multi-agent workflows
 
-### **TDD Output Style** (`output-styles/pragmatic-tdd-developer.md`)
+#### **TDD Output Style** (`.claude/output-styles/pragmatic-tdd-developer.md`)
 
 - Enforces test-first development methodology
 - Automatic Red → Green → Verify cycle
 - Prevents skipping tests or writing untested code
 - Compatible with all Claude Code agents
 
-### **Color Mixer PRD** (`prd/simple-color-mixer.md`)
+## 🎯 Additional Resources
 
-- Complete product requirements document
-- Detailed feature specifications
-- Test scenarios and success criteria
-- Progressive complexity for learning TDD
+### **You're Already an Insider! 🎉**
 
-### **Test Examples** (`tests/`)
+As an AI Insiders Club member, you have access to:
 
-- Working Playwright baseline tests
-- Stagehand natural language conversions
-- Side-by-side comparisons showing robustness
-- Real-world patterns you can adapt
+- ✅ This complete repository with LESSON.md
+- ✅ Custom command structures (`/dev:design-app`, `/dev:implement-mvp`)
 
-## 🎯 Want More?
+### **Upgrade to Builder Pack (Premium)**
 
-### **Join my AI Insiders Club (FREE)**
+Take your skills further with the complete implementation:
 
-Join the AI Insiders Club for additional resources:
-
-- Custom command structures (`/dev:design-app`, `/dev:implement-mvp`)
-- Lesson outline with detailed timestamps
-- Resource collection and reference links
-- Early access to new episodes
-
-**Join FREE** ► [Click Here](https://insiders.aioriented.dev)
-
-### **For Builder Pack Members (Premium)**
-
-Get the complete implementation package:
-
-- ✅ **Full Agent Team** (UI Designer, shadcn Expert, Orchestrator, TypeScript Specialist)
-- ✅ **Complete Design Outputs** (wireframes, manifest, implementation plan)
-- ✅ **Final Color Mixer Project** (working app with all tests)
-- ✅ **Priority Support** in the community
+- 🚀 **Full Agent Team** (UI Designer, shadcn Expert, Orchestrator, TypeScript Specialist)
+- 🚀 **Complete Design Outputs** (wireframes, manifest, implementation plan)
+- 🚀 **Final Color Mixer Project** (working app with all tests passing)
+- 🚀 **Priority Support** in the community
+- 🚀 **Source code for the working Color Mixer app**
 
 **Get Builder Pack** ► [Click Here](https://rebrand.ly/5ecb8c)
 
