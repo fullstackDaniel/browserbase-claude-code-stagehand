@@ -1,4 +1,4 @@
-# Episode 9: Test-Driven Development with Stagehand & Browserbase
+# Test-Driven Development with Browserbase, Stagehand and Claude Code
 
 **🤖 Sponsored by Browserbase**: Sign up today ► https://browserbase.plug.dev/ekNRhob
 
