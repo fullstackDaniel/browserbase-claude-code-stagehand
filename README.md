@@ -33,36 +33,28 @@ browserbase-claude-code-stagehand/
             └── color-workflows.spec.ts         # Complex AI workflows
 ```
 
-### Resources to be Added:
-
-- **prd/** - Product requirements for Color Mixer app
-- **docs/** - Learning materials and guides
-- **transcript/** - Episode materials and timestamps
-
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Set Up Claude Code Configuration
 
+Copy everything from `.claude` into the root of your Claude Code project:
 ```bash
-# Install Stagehand and Playwright
-npm install --save-dev @browserbasehq/stagehand playwright
-
-# Install Browserbase MCP (optional - for cloud testing)
-claude mcp add --scope project --transport stdio browserbase npx @browserbasehq/mcp-server-browserbase
+cp -r .claude/* /path/to/your/project/.claude/
 ```
 
-### 2. Try Natural Language Testing
+### 2. Use the Stagehand Expert Agent
 
-```typescript
-// Traditional Playwright (brittle)
-await page.locator('[data-testid="slider-red"]').fill("255");
+Tag `@agent-stagehand-expert` in any task related to writing or running tests. This agent specializes in:
+- Creating executable Stagehand test files
+- Implementing hybrid AI + data-testid strategies
+- Handling LOCAL vs BROWSERBASE modes
+- Building robust tests with fallback strategies
 
-// Stagehand Natural Language (robust)
-await page.act("set the red slider to maximum");
-const color = await page.observe("what color is displayed?");
-```
+### 3. Enable TDD Output Style
 
-### 3. Run Example Tests
+Run `/output-style` and select **"Pragmatic Test Driven Developer"** to enforce the Red → Green → Verify cycle automatically in your development workflow.
+
+### 4. Run Example Tests
 
 ```bash
 # Run Playwright tests
