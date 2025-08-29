@@ -4,7 +4,9 @@
 
 **🤖 Sponsored by Browserbase**: Sign up today ► https://browserbase.plug.dev/ekNRhob
 
-**🎥 Watch the Episode**: [How to Reduce 90% of Errors with Claude Code](https://www.youtube.com/watch?v=5jPQNDu_iJA)
+**🎥 Watch the Episode** ► [How to Reduce 90% of Errors with Claude Code](https://www.youtube.com/watch?v=5jPQNDu_iJA)
+
+**Get Builder Pack** ► [Click Here](https://rebrand.ly/5ecb8c)
 
 Welcome Insiders! This enhanced repository contains exclusive learning materials and the complete test suite from Episode 9. Learn how to reduce 90% of errors using Test-Driven Development with AI-powered testing and Stagehand's natural language testing framework.
 
@@ -127,9 +129,7 @@ Take your skills further with the complete implementation:
 
 - 🚀 **Full Agent Team** (UI Designer, shadcn Expert, Orchestrator, TypeScript Specialist)
 - 🚀 **Complete Design Outputs** (wireframes, manifest, implementation plan)
-- 🚀 **Final Color Mixer Project** (working app with all tests passing)
-- 🚀 **Priority Support** in the community
-- 🚀 **Source code for the working Color Mixer app**
+- 🚀 **Source code for the working Color Mixer app** (working app with all tests passing)
 
 **Get Builder Pack** ► [Click Here](https://rebrand.ly/5ecb8c)
 
