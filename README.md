@@ -38,6 +38,7 @@ browserbase-claude-code-stagehand/
 ### 1. Set Up Claude Code Configuration
 
 Copy everything from `.claude` into the root of your Claude Code project:
+
 ```bash
 cp -r .claude/* /path/to/your/project/.claude/
 ```
@@ -45,6 +46,7 @@ cp -r .claude/* /path/to/your/project/.claude/
 ### 2. Use the Stagehand Expert Agent
 
 Tag `@agent-stagehand-expert` in any task related to writing or running tests. This agent specializes in:
+
 - Creating executable Stagehand test files
 - Implementing hybrid AI + data-testid strategies
 - Handling LOCAL vs BROWSERBASE modes
@@ -96,7 +98,7 @@ npx playwright test tests/stagehand/
 
 ## 🎯 Want More?
 
-### **For Claude Code Insiders (Free Membership)**
+### **Join my AI Insiders Club (FREE)**
 
 Join the AI Insiders Club for additional resources:
 
@@ -105,7 +107,7 @@ Join the AI Insiders Club for additional resources:
 - Resource collection and reference links
 - Early access to new episodes
 
-**Join FREE** ► https://insiders.aioriented.dev
+**Join FREE** ► [Click Here](https://insiders.aioriented.dev)
 
 ### **For Builder Pack Members (Premium)**
 
@@ -116,7 +118,7 @@ Get the complete implementation package:
 - ✅ **Final Color Mixer Project** (working app with all tests)
 - ✅ **Priority Support** in the community
 
-**Get Builder Pack** ► https://rebrand.ly/q6toh81
+**Get Builder Pack** ► [Click Here](https://rebrand.ly/5ecb8c)
 
 ## 🔧 TDD Methodology Overview
 
